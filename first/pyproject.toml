@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "first"
+version = "0.1.0"
+description = ""
+authors = ["DsJohn <jakubovskyey@itpc.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+sanic = "^24.6.0"
+datetime = "^5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
